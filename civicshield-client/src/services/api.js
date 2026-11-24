@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://civicshield-api-nc4k.onrender.com',
+  baseURL:'https://civicshield-api-nc4k.onrender.com',
 });
 
 // Automatically add the token to every request if it exists
